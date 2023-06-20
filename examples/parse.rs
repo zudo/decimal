@@ -1,5 +1,5 @@
-use parseint::Decimal;
-use parseint::FromStr;
+use decimal::Decimal;
+use decimal::FromStr;
 fn main() {
     println!("{}", 120.decimal::<8>());
     println!("{}", 12120965.decimal::<8>());
